@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>السيارات الجديدة</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="index.html">الرئيسية</a></li>
+<li><a href="#">السيارات الجديدة</a></li>
+<li><a href="used-cars.html">المستعملة</a></li>
+<li><a href="services.html">الصيانة</a></li>
+<li><a href="contact.html">اتصل بنا</a></li>
+</ul>
+</nav>
+<img src="images\toyota-red-logo-11.png" width="60px" height="50px" style ="position:absolute; top:15px; left:15px" >
+</header>
+
+<section class="car-slider">
+<h2>السيارات الجديدة</h2>
+
+<div class="slider-container">
+
+<button class="prev" onclick="prevSlide('newSlider',4)">❮</button>
+
+<div class="slider" id="newSlider">
+
+<div class="car-item"><div class="card">
+<img src="images/car1.jpg">
+<h3>Corolla</h3>
+<p>$25000</p>
+</div></div>
+
+<div class="car-item"><div class="card">
+<img src="images/car2.jpg">
+<h3>RAV4</h3>
+<p>$30000</p>
+</div></div>
+
+<div class="car-item"><div class="card">
+<img src="images/car3.jpg">
+<h3>Camry</h3>
+<p>$28000</p>
+</div></div>
+
+<div class="car-item"><div class="card">
+<img src="images/car4.jpg">
+<h3>Fortuner</h3>
+<p>$38500</p>
+</div></div>
+
+</div>
+
+<button class="next" onclick="nextSlide('newSlider',4)">❯</button>
+
+</div>
+
+<button onclick="nextNew()">❯</button>
+
+</div>
+</section>
+<script src="js/script.js"></script>
+</body>
+
+</html>
