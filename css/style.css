@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    direction: rtl;
+    background: #f5f5f5;
+}
+
+/* NAVBAR */
+header {
+    background: #111;
+    padding: 15px;
+}
+footer {
+    background: #111;
+    padding: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* HERO */
+.hero {
+    height: 350px;
+    background: url('../images/hero.jpg') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* SECTION */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* SLIDER */
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+
+.slider {
+    display: flex;
+    transition: 0.5s;
+}
+
+.car-item {
+    min-width: 33.33%;
+    padding: 15px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* BUTTONS */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+/* SERVICES */
+.service-box {
+    background: white;
+    padding: 25px;
+    width: 350px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/* BUTTON */
+button {
+    background: #ff4d5a;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#date {
+    color: #f5f5f5;
+}
